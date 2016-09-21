@@ -42,6 +42,8 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'puma'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
