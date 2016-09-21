@@ -1,0 +1,450 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+ html {
+ 	height: 100% ;
+ 	font-family: 'Helvetica Neue';
+ 	color: black;
+ }
+
+/*
+ .desktop {
+    min-width: 10000px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(50, 49, 50);
+    height: 70px;
+    top: 0;
+    border-bottom: 1px solid rgba(200,200,200,.5);
+    position: fixed;
+}
+*/
+
+ .desktop {
+    min-width: 10000px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(34, 74, 124, 1);
+    height: 50px;
+    top: 0px;
+    border-bottom: 1px solid rgba(200,200,200,.5);
+    position: fixed;
+}
+
+.icon_header img {
+	height: 50px;
+	width: 225px;
+	display: block;
+	float: left;
+	clear: right;
+}
+
+.header_text a {
+	font-family: 'Copperplate Gothic Light';
+	font-weight: lighter;
+	text-decoration: none;
+	color: white;
+	display: inline;
+	position: block;
+	float: left;
+	clear: right;
+	padding-left: 25px;
+}
+
+.header_text a:hover {
+	text-decoration: underline;
+}
+
+.header_text ul {
+	margin-top: 29px;
+	width: 750px;
+	position: block;
+	float: left;
+	clear: right;
+}
+
+.header_text li {
+	display: inline;
+	padding-right: 75px;
+}
+
+/* add stuff */
+
+ body {
+ 	margin: 0px 0px 0px 0px;
+ 	width: 100%;
+ 	height: 500px;
+ 	background-size: cover;
+ 	/*height: 100%;*/
+ 	/*background-color: grey;*/
+ 	/* background-image: url(SiteBackground.png); */
+ 	background-repeat: no-repeat;
+ 	background-color: rgba(255, 255, 255);
+ 	background-attachment: fixed;
+ }
+
+/* .background_image {
+ 	margin: 0px 0px 0px 0px;
+ 	width: 500px;
+ 	height: 250px;
+ }*/
+
+ .wide_content {
+    margin-top: -51px;
+    padding-top: 0px;
+    border-radius: 8px;
+    font-family: 'Helvetica Neue';
+    color: black;
+    float: left;
+    clear: right;
+    width: 100%;
+/*    background-color: rgba(0,0,0,.25);*/
+}
+
+.body {
+	width: 90%;
+	height: auto;
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	/* background-color: rgba(50, 49, 50, 1); */
+	background-color: rgb(255, 255, 255);
+	border: 1px solid rgba(200,200,200,.5);
+}
+
+.title_text {
+/*	color: white; */
+	color: rgba(34, 74, 124, 1);
+	width: 90%;
+	font-weight: 300;
+	font-size: 25px;
+	letter-spacing: .5px;
+	padding-top: 5px;
+/*	padding-left: 50px;*/
+/*	padding-right: 50px;
+	padding-bottom: 50px;*/
+/*	text-decoration: underline; */
+	margin-left: auto;
+	margin-right: auto;
+/*	margin-top: 50px;*/
+	/*background-color: rgba(50, 49, 50, 1);*/
+	/*border: 1px solid rgba(200,200,200,.5);*/
+}
+
+.body_text {
+	color: rgb(50, 49, 50);
+	width: 90%;
+	font-weight: 200;
+	font-size: 17.5px;
+	letter-spacing: .5px;
+/*	padding-top: 0px;*/
+/*	padding-left: 50px;
+	padding-right: 50px;*/
+	padding-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+/*	margin-top: 150px;*/
+}
+
+.body_text a {
+	color: rgb(50, 49, 50);
+	text-decoration: underline;
+	outline: none;
+}
+
+.body_text a:hover {
+	color: royalblue;
+}
+
+
+
+
+
+.betsy_name_text:focus ~ .betsy_body_text {
+	display: block;
+}
+
+.betsy_name_text:hover {
+	text-decoration: underline;
+}
+
+.betsy_name_text {
+	display: block;
+	color: rgba(34, 74, 124, 1);
+	width: 90%;
+	font-weight: 300;
+	font-size: 17.5px;
+	letter-spacing: .5px;
+/*	padding-top: 0px;*/
+/*	padding-left: 50px;
+	padding-right: 50px;*/
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	outline: none;
+/*	margin-top: 150px;*/
+}
+
+.betsy_name_text a:hover {
+	text-decoration: underline;
+}
+
+.betsy_body_text {
+	display: none;
+	color: rgb(50, 49, 50);
+	width: 90%;
+	font-weight: 200;
+	font-size: 17.5px;
+	letter-spacing: .5px;
+/*	padding-top: 0px;*/
+/*	padding-left: 50px;
+	padding-right: 50px;*/
+	padding-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+/*	margin-top: 150px;*/
+}
+
+
+
+
+
+.daniel_name_text:focus ~ .daniel_body_text {
+	display: block;
+}
+
+.daniel_name_text:hover {
+	text-decoration: underline;
+}
+
+.daniel_name_text {
+	display: block;
+	color: rgba(34, 74, 124, 1);
+	width: 90%;
+	font-weight: 300;
+	font-size: 17.5px;
+	letter-spacing: .5px;
+/*	padding-top: 0px;*/
+/*	padding-left: 50px;
+	padding-right: 50px;*/
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	outline: none;
+/*	margin-top: 150px;*/
+}
+
+.daniel_name_text a:hover {
+	text-decoration: underline;
+}
+
+.daniel_body_text {
+	display: none;
+	color: rgb(50, 49, 50);
+	width: 90%;
+	font-weight: 200;
+	font-size: 17.5px;
+	letter-spacing: .5px;
+/*	padding-top: 0px;*/
+/*	padding-left: 50px;
+	padding-right: 50px;*/
+	padding-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+/*	margin-top: 150px;*/
+}
+
+
+
+
+
+.jay_name_text:focus ~ .jay_body_text {
+	display: block;
+}
+
+.jay_name_text:hover {
+	text-decoration: underline;
+}
+
+.jay_name_text {
+	display: block;
+	color: rgba(34, 74, 124, 1);
+	width: 90%;
+	font-weight: 300;
+	font-size: 17.5px;
+	letter-spacing: .5px;
+/*	padding-top: 0px;*/
+/*	padding-left: 50px;
+	padding-right: 50px;*/
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	outline: none;
+/*	margin-top: 150px;*/
+}
+
+.jay_name_text a:hover {
+	text-decoration: underline;
+}
+
+.jay_body_text {
+	display: none;
+	color: rgb(50, 49, 50);
+	width: 90%;
+	font-weight: 200;
+	font-size: 17.5px;
+	letter-spacing: .5px;
+/*	padding-top: 0px;*/
+/*	padding-left: 50px;
+	padding-right: 50px;*/
+	padding-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+/*	margin-top: 150px;*/
+}
+
+
+
+
+
+.shami_name_text:focus ~ .shami_body_text {
+	display: block;
+}
+
+.shami_name_text:hover {
+	text-decoration: underline;
+}
+
+.shami_name_text {
+	display: block;
+	color: rgba(34, 74, 124, 1);
+	width: 90%;
+	font-weight: 300;
+	font-size: 17.5px;
+	letter-spacing: .5px;
+/*	padding-top: 0px;*/
+/*	padding-left: 50px;
+	padding-right: 50px;*/
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	outline: none;
+/*	margin-top: 150px;*/
+}
+
+.shami_name_text a:hover {
+	text-decoration: underline;
+}
+
+.shami_body_text {
+	display: none;
+	color: rgb(50, 49, 50);
+	width: 90%;
+	font-weight: 200;
+	font-size: 17.5px;
+	letter-spacing: .5px;
+/*	padding-top: 0px;*/
+/*	padding-left: 50px;
+	padding-right: 50px;*/
+	padding-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+/*	margin-top: 150px;*/
+}
+
+
+
+
+.position_text {
+	color: rgb(50, 49, 50);
+	width: 90%;
+	font-weight: 300;
+	font-size: 15px;
+	letter-spacing: .5px;
+/*	padding-top: 0px;*/
+/*	padding-left: 50px;
+	padding-right: 50px;*/
+	padding-bottom: 15px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+/*	margin-top: 150px;*/
+}
+
+.city_text {
+	color: rgba(34, 74, 124, 1);
+	width: 90%;
+	font-weight: 300;
+	font-size: 17.5px;
+	letter-spacing: .5px;
+/*	padding-top: 0px;*/
+/*	padding-left: 50px;
+	padding-right: 50px;*/
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+/*	margin-top: 150px;*/
+}
+
+.address_text {
+	color: rgb(50, 49, 50);
+	width: 90%;
+	font-weight: 200;
+	font-size: 17.5px;
+	letter-spacing: .5px;
+/*	padding-top: 0px;*/
+/*	padding-left: 50px;
+	padding-right: 50px;*/
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+/*	margin-top: 150px;*/
+}
+
+.address_spacing_text {
+	color: rgb(50, 49, 50);
+	width: 90%;
+	font-weight: 200;
+	font-size: 17.5px;
+	letter-spacing: .5px;
+/*	padding-top: 0px;*/
+/*	padding-left: 50px;
+	padding-right: 50px;*/
+	padding-bottom: 25px;
+	margin-top: 0px;
+/*	margin-bottom: 0px;*/
+	margin-left: auto;
+	margin-right: auto;
+/*	margin-top: 150px;*/
+}
+
+.avatar {
+	display: inline;
+	height: 75px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
