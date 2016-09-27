@@ -441,6 +441,16 @@
 /*	margin-top: 150px;*/
 }
 
+.address_text a {
+	color: rgb(50, 49, 50);
+	text-decoration: underline;
+	outline: none;
+}
+
+.address_text a:hover {
+	color: royalblue;
+}
+
 .avatar {
 	display: inline;
 	height: 75px;
