@@ -54,6 +54,39 @@
 	clear: right;
 }
 
+.about_us_header img {
+	height: 31px;
+	width: 99.5px;
+	display: inline;
+	position: block;
+	float: left;
+	clear: right;
+	padding-left: 0px;
+	margin-top: -8px;
+}
+
+.our_team_header img {
+	height: 31px;
+	width: 103px;
+	display: inline;
+	position: block;
+	float: left;
+	clear: right;
+	padding-left: 0px;
+	margin-top: -8px;
+}
+
+.contact_us_header img {
+	height: 31px;
+	width: 118.5px;
+	display: inline;
+	position: block;
+	float: left;
+	clear: right;
+	padding-left: 0px;
+	margin-top: -8px;
+}
+
 .header_text a {
 	font-family: 'Copperplate Gothic Light';
 	font-weight: lighter;
