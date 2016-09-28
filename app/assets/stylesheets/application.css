@@ -54,7 +54,7 @@
 	clear: right;
 }
 
-.about_us_header {
+.about_us_header img {
 	height: 31px;
 	width: 99.5px;
 	display: inline;
@@ -63,20 +63,9 @@
 	clear: right;
 	padding-left: 0px;
 	margin-top: -8px;
-	background-image: url('/assets/AboutUs.png');
-	background-size: 99.5px 31px;
-	background-position: center;
-	background-repeat: no-repeat;
 }
 
-.about_us_header:hover {
-	background-image: url('/assets/AboutUsa.png');
-	background-size: 99.5px 31px;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.our_team_header {
+.our_team_header img {
 	height: 31px;
 	width: 103px;
 	display: inline;
@@ -85,20 +74,9 @@
 	clear: right;
 	padding-left: 0px;
 	margin-top: -8px;
-	background-image: url('/assets/OurTeam.png');
-	background-size: 99.5px 31px;
-	background-position: center;
-	background-repeat: no-repeat;
 }
 
-.our_team_header:hover {
-	background-image: url('/assets/OurTeama.png');
-	background-size: 99.5px 31px;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.contact_us_header {
+.contact_us_header img {
 	height: 31px;
 	width: 118.5px;
 	display: inline;
@@ -107,17 +85,6 @@
 	clear: right;
 	padding-left: 0px;
 	margin-top: -8px;
-	background-image: url('/assets/ContactUs.png');
-	background-size: 99.5px 31px;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.contact_us_header:hover {
-	background-image: url('/assets/ContactUsa.png');
-	background-size: 99.5px 31px;
-	background-position: center;
-	background-repeat: no-repeat;
 }
 
 .header_text a {
