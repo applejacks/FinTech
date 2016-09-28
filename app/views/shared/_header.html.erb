@@ -4,9 +4,9 @@
 
 	<div class="header_text">
 		<ul>
-			<li><%= link_to(image_tag("AboutUs.png", onMouseover: "src='/assets/AboutUsa.png';", onMouseout: "src='/assets/AboutUs.png';"), about_path, :class => 'about_us_header') %></li>
-			<li><%= link_to(image_tag("OurTeam.png", onMouseover: "src='/assets/OurTeama.png';", onMouseout: "src='/assets/OurTeam.png';"), team_path, :class => 'our_team_header') %></li>
-			<li><%= link_to(image_tag("ContactUs.png", onMouseover: "src='/assets/ContactUsa.png';", onMouseout: "src='/assets/ContactUs.png';"), contact_path, :class => 'contact_us_header') %></li> 
+			<li><%= link_to(image_tag("AboutUs.png", onMouseover: "this.src='/assets/AboutUsa.png';", onMouseout: "this.src='/assets/AboutUs.png';"), about_path, :class => 'about_us_header') %></li>
+			<li><%= link_to(image_tag("OurTeam.png", onMouseover: "this.src='/assets/OurTeama.png';", onMouseout: "this.src='/assets/OurTeam.png';"), team_path, :class => 'our_team_header') %></li>
+			<li><%= link_to(image_tag("ContactUs.png", onMouseover: "this.src='/assets/ContactUsa.png';", onMouseout: "this.src='/assets/ContactUs.png';"), contact_path, :class => 'contact_us_header') %></li> 
 		</ul>
 	</div>
 </header>
