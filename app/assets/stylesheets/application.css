@@ -14,36 +14,22 @@
 
  html {
  	height: 100% ;
- 	font-family: 'Helvetica Neue';
+ 	font-family: 'Calibri';
  	color: black;
  }
 
-/*
  .desktop {
     min-width: 10000px;
     max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(50, 49, 50);
-    height: 70px;
-    top: 0;
-    border-bottom: 1px solid rgba(200,200,200,.5);
-    position: fixed;
-}
-*/
-
- .desktop {
-    min-width: 10000px;
-    max-width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgba(34, 74, 124, 1);
+    background-color: rgba(7, 135, 201, 1);
     height: 50px;
     top: 0px;
-    border-bottom: 1px solid rgba(200,200,200,.5);
+    border-bottom: 2.5px solid rgba(34, 74, 124, 1);
     position: fixed;
+    z-index: 5;
 }
 
 .icon_header img {
@@ -53,6 +39,7 @@
 	float: left;
 	clear: right;
 }
+
 
 .about_us_header img {
 	height: 31px;
@@ -87,8 +74,19 @@
 	margin-top: -9px;
 }
 
+.header_text {
+	font-family: 'Calibri';
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	display: inline;
+	position: block;
+	float: left;
+	clear: right;
+	padding-left: 0px;
+}
+
 .header_text a {
-	font-family: 'Copperplate Gothic Light';
+	font-family: 'Calibri';
 	font-weight: lighter;
 	text-decoration: none;
 	color: white;
@@ -120,37 +118,21 @@
 	display: none;
 }
 
-/* add stuff */
-
  body {
  	margin: 0px 0px 0px 0px;
  	width: 100%;
  	height: 500px;
- 	background-size: cover;
- 	/*height: 100%;*/
- 	/*background-color: grey;*/
- 	/* background-image: url(SiteBackground.png); */
- 	background-repeat: no-repeat;
- 	background-color: rgb(255, 255, 255);
- 	background-attachment: fixed;
+ 	background-size: contain;
  }
-
-/* .background_image {
- 	margin: 0px 0px 0px 0px;
- 	width: 500px;
- 	height: 250px;
- }*/
 
  .wide_content {
     margin-top: -51px;
     padding-top: 0px;
-    border-radius: 8px;
-    font-family: 'Helvetica Neue';
+    font-family: 'Calibri';
     color: black;
     float: left;
     clear: right;
     width: 100%;
-/*    background-color: rgba(0,0,0,.25);*/
 }
 
 .body {
@@ -160,43 +142,36 @@
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
-	/* background-color: rgba(50, 49, 50, 1); */
-	background-color: rgb(255, 255, 255);
-	border: 1px solid rgba(200,200,200,.5);
+	background-color: rgb(255, 255, 255, 0);
 }
 
 .title_text {
-/*	color: white; */
-	color: rgba(34, 74, 124, 1);
-	width: 90%;
-	font-weight: 300;
-	font-size: 25px;
+	color: white;
+	width: 100%;
+	font-weight: 400;
+	font-size: 28px;
 	letter-spacing: .5px;
 	padding-top: 5px;
-/*	padding-left: 50px;*/
-/*	padding-right: 50px;
-	padding-bottom: 50px;*/
-/*	text-decoration: underline; */
+	vertical-align: center;
 	margin-left: auto;
 	margin-right: auto;
-/*	margin-top: 50px;*/
-	/*background-color: rgba(50, 49, 50, 1);*/
-	/*border: 1px solid rgba(200,200,200,.5);*/
+	background-color: rgba(7, 135, 201, 1);
+	height: 45px;
+	border-radius: 10px 10px 10px 10px;
+	border-style: solid;
+	border-color: rgba(34, 74, 124, 1);
+	text-align: center;
 }
 
 .body_text {
 	color: rgb(50, 49, 50);
 	width: 90%;
-	font-weight: 200;
-	font-size: 17.5px;
+	font-weight: 300;
+	font-size: 20px;
 	letter-spacing: .5px;
-/*	padding-top: 0px;*/
-/*	padding-left: 50px;
-	padding-right: 50px;*/
 	padding-bottom: 25px;
 	margin-left: auto;
 	margin-right: auto;
-/*	margin-top: 150px;*/
 }
 
 .body_text a {
@@ -209,59 +184,43 @@
 	color: royalblue;
 }
 
-
-
-
-
-.betsy_name_text:focus ~ .betsy_body_text {
+.plamen_name_text:focus ~ .plamen_body_text {
 	display: block;
 }
 
-.betsy_name_text:hover {
+.plamen_name_text:hover {
 	text-decoration: underline;
 }
 
-.betsy_name_text {
+.plamen_name_text {
 	display: block;
 	color: rgba(34, 74, 124, 1);
 	width: 90%;
 	font-weight: 300;
 	font-size: 17.5px;
 	letter-spacing: .5px;
-/*	padding-top: 0px;*/
-/*	padding-left: 50px;
-	padding-right: 50px;*/
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 	outline: none;
-/*	margin-top: 150px;*/
 }
 
-.betsy_name_text a:hover {
+.plamen_name_text a:hover {
 	text-decoration: underline;
 }
 
-.betsy_body_text {
+.plamen_body_text {
 	display: none;
 	color: rgb(50, 49, 50);
 	width: 90%;
 	font-weight: 200;
 	font-size: 17.5px;
 	letter-spacing: .5px;
-/*	padding-top: 0px;*/
-/*	padding-left: 50px;
-	padding-right: 50px;*/
 	padding-bottom: 25px;
 	margin-left: auto;
 	margin-right: auto;
-/*	margin-top: 150px;*/
 }
-
-
-
-
 
 .daniel_name_text:focus ~ .daniel_body_text {
 	display: block;
@@ -278,15 +237,11 @@
 	font-weight: 300;
 	font-size: 17.5px;
 	letter-spacing: .5px;
-/*	padding-top: 0px;*/
-/*	padding-left: 50px;
-	padding-right: 50px;*/
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 	outline: none;
-/*	margin-top: 150px;*/
 }
 
 .daniel_name_text a:hover {
@@ -300,18 +255,11 @@
 	font-weight: 200;
 	font-size: 17.5px;
 	letter-spacing: .5px;
-/*	padding-top: 0px;*/
-/*	padding-left: 50px;
-	padding-right: 50px;*/
 	padding-bottom: 25px;
 	margin-left: auto;
 	margin-right: auto;
-/*	margin-top: 150px;*/
+	transition: all 0.5s ease;
 }
-
-
-
-
 
 .jay_name_text:focus ~ .jay_body_text {
 	display: block;
@@ -328,15 +276,11 @@
 	font-weight: 300;
 	font-size: 17.5px;
 	letter-spacing: .5px;
-/*	padding-top: 0px;*/
-/*	padding-left: 50px;
-	padding-right: 50px;*/
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 	outline: none;
-/*	margin-top: 150px;*/
 }
 
 .jay_name_text a:hover {
@@ -350,18 +294,10 @@
 	font-weight: 200;
 	font-size: 17.5px;
 	letter-spacing: .5px;
-/*	padding-top: 0px;*/
-/*	padding-left: 50px;
-	padding-right: 50px;*/
 	padding-bottom: 25px;
 	margin-left: auto;
 	margin-right: auto;
-/*	margin-top: 150px;*/
 }
-
-
-
-
 
 .shami_name_text:focus ~ .shami_body_text {
 	display: block;
@@ -378,15 +314,11 @@
 	font-weight: 300;
 	font-size: 17.5px;
 	letter-spacing: .5px;
-/*	padding-top: 0px;*/
-/*	padding-left: 50px;
-	padding-right: 50px;*/
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 	outline: none;
-/*	margin-top: 150px;*/
 }
 
 .shami_name_text a:hover {
@@ -400,17 +332,10 @@
 	font-weight: 200;
 	font-size: 17.5px;
 	letter-spacing: .5px;
-/*	padding-top: 0px;*/
-/*	padding-left: 50px;
-	padding-right: 50px;*/
 	padding-bottom: 25px;
 	margin-left: auto;
 	margin-right: auto;
-/*	margin-top: 150px;*/
 }
-
-
-
 
 .position_text {
 	color: rgb(50, 49, 50);
@@ -418,30 +343,22 @@
 	font-weight: 300;
 	font-size: 15px;
 	letter-spacing: .5px;
-/*	padding-top: 0px;*/
-/*	padding-left: 50px;
-	padding-right: 50px;*/
 	padding-bottom: 15px;
 	margin-top: 0px;
 	margin-left: auto;
 	margin-right: auto;
-/*	margin-top: 150px;*/
 }
 
 .city_text {
 	color: rgba(34, 74, 124, 1);
 	width: 90%;
-	font-weight: 300;
-	font-size: 17.5px;
+	font-size: 20px;
 	letter-spacing: .5px;
-/*	padding-top: 0px;*/
-/*	padding-left: 50px;
-	padding-right: 50px;*/
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
-/*	margin-top: 150px;*/
+	text-align: center;
 }
 
 .address_text {
@@ -450,15 +367,12 @@
 	font-weight: 200;
 	font-size: 17.5px;
 	letter-spacing: .5px;
-/*	padding-top: 0px;*/
-/*	padding-left: 50px;
-	padding-right: 50px;*/
 	padding-bottom: 0px;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
-/*	margin-top: 150px;*/
+	text-align: center;
 }
 
 .address_spacing_text {
@@ -467,15 +381,11 @@
 	font-weight: 200;
 	font-size: 17.5px;
 	letter-spacing: .5px;
-/*	padding-top: 0px;*/
-/*	padding-left: 50px;
-	padding-right: 50px;*/
 	padding-bottom: 25px;
 	margin-top: 0px;
-/*	margin-bottom: 0px;*/
 	margin-left: auto;
 	margin-right: auto;
-/*	margin-top: 150px;*/
+	text-align: center;
 }
 
 .address_text a {
@@ -490,7 +400,105 @@
 
 .avatar {
 	display: inline;
-	height: 75px;
+	height: 65px;
 	padding-left: 5px;
 	padding-right: 5px;
+}
+
+#circle {
+  position: absolute;
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  background-image: url("MAvatar.png"); 
+  background-position: center;
+  background-size: 100%;
+  -moz-border-radius: 75px;
+  -webkit-border-radius: 75px;
+  border-radius: 90px;
+  margin-left:10px;
+  margin-top:10px;
+  
+}
+
+#name{
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 15px;
+  color: white;
+  font-size: 24px;
+  font-family: 'Calibri';
+  font-weight: 300;
+}
+
+#position {
+	position: absolute;
+	margin-left: 25px;
+	margin-top: 40px;
+	color: white;
+	font-size: 14px;
+	font-family: 'Calibri';
+	font-weight: 150px;
+}
+
+#box{
+ 	position: relative;
+ 	z-index: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+ 	height: 75px;
+ 	background-color: rgba(7, 135, 201, 1);
+ 	border-radius: 10px 10px 10px 10px;
+ 	margin-bottom: 5px;
+ 	transition: all 0.5s ease;
+}
+
+#box:hover {
+	background-color: rgba(34, 74, 124, 1);
+}
+
+#box:focus {
+	height: 500px;
+	transition: all 0.5s ease;
+	outline: none;
+	background-color: rgba(34, 74, 124, 1);
+}
+
+#box:focus #box2{ 
+  height: 250px;
+}
+
+#box:focus #bio{ 
+  display: block;
+  height: 350px;
+}
+
+
+#box2{
+  position:absolute;
+  z-index: 1;
+  width: 100%;
+  height: 0px;
+  background-color: rgba(34, 74, 124, 0);
+  margin-top: 75px;
+  transition: all 0.5s ease;
+  border-radius: 0 0 10px 10px;
+}
+
+
+#bio{
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 75px;
+  padding: 25px;
+  color: white;
+  display: none;
+  width: 92.5%;
+  height: 0px;
+  z-index: 2;
+  font-family: 'Calibri';
+  font-weight: 200;
+	font-size: 17.5px;
+	letter-spacing: .5px;
+	overflow-y: scroll;
 }

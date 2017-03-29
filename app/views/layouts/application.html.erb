@@ -3,11 +3,11 @@
 <head>
 
 
-  <title>FinTech | <%= @page_title || "application" %></title>
+  <title>Foundation View | <%= @page_title || "application" %></title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
-  <%= favicon_link_tag 'favicon.ico' %>
+  <%= favicon_link_tag 'favicon.png' %>
 
 
 </head>
@@ -19,4 +19,11 @@
 <%= yield %>
 
 </body>
+
+<% if false %>
+<div class="footer">
+Foundation View Capital | 712 Fifth Avenue, Floor 8, New York, NY 10019
+</div>
+<% end %>
+
 </html>
